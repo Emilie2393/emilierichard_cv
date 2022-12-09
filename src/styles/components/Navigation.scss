@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px;
+    & a{
+        height: fit-content;
+        padding: 5px 25px 5px 25px;
+        background-color: antiquewhite;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    &__image{
+        width: 150px;
+        border-radius: 50%;
+        border: 5px antiquewhite solid;
+    }
+}
+
