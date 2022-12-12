@@ -6,6 +6,7 @@ import work2 from "../media/work2.jpg";
 import work3 from "../media/work3.jpg";
 import work4 from "../media/work4.jpg";
 
+
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
               Je m'appelle Emilie Richard, et je recherche un poste de
               Développeur Front-End en alternance
             </h2>
+            <a href="../../CV.pdf" download>Télécharger mon CV</a>
           </div>
           <div className="home__firstpart__img">
             <img src={work1} alt="carnet de note" />
@@ -32,7 +34,9 @@ const Home = () => {
               quand j'ai choisi mes études supérieurs en 2012, je me suis dirigé
               vers le secteur de l'administratif. Mes 10 ans d'expériences
               professionnelles m'ont apportés beaucoup en terme de connaissance
-              du monde de l'entreprise.
+              du monde de l'entreprise. Aujourd'hui j'ai le sentiment d'avoir fait 
+              le tour des activités administratives. Les challenges techniques sont 
+              désormais mon moteur.
             </p>
             <div className="home__secondpart__img">
               <img
@@ -45,9 +49,9 @@ const Home = () => {
         <div className="home__thirdpart">
           <div className="home__thirdpart__text">
             <p>
-              Désormais les méthodes d'organisation, de gestion de projet et de
-              relation client n'ont plus de secrets pour moi, et j'ai pu faire
-              de très belles rencontres aussi bien avec mes collègues, qu'avec
+              Les méthodes d'organisation, de gestion de projet et de
+              relation client n'ont plus de secrets pour moi et j'ai pu faire
+              de très belles rencontres aussi bien avec mes collègues qu'avec
               mes clients au fur et à mesure des années.
             </p>
           </div>
@@ -62,19 +66,17 @@ const Home = () => {
           <div className="home__fourthpart__text">
             <p>
               Pendant la période du COVID 19 que nous connaissons tous, j'ai été
-              placé en chomage partiel puis en télétravail pendant 1 an. Durant
+              en chomage partiel puis en télétravail pendant 1 an. Durant
               cette période j'ai réfléchi à mon parcours professionnel et j'ai
               profité de cette période inhabituelle de temps libre pour me
               renseigner puis me former seule au développement informatique.
               J'ai pu étudier le language Python dans un premier temps sur la
-              plateforme MOOC et avec l'aide de mon père qui développe des
-              logiciels depuis une trentaine d'années. Puis j'ai pris contact
-              avec OPENCLASSROOMS pour pousser le projet plus loin. En 2021 je
-              prend la décision de quitter mon poste en CDI pour changer de vie
-              professionnelle. Aujourd'hui j'ai validé un Titre RNCP de niveau 5
-              Développeur Web, et je me présente devant vous pour poursuivre
-              cette voie et apporter le maximum à votre entreprise. Bienvenue
-              sur mon site !
+              plateforme MOOC. Puis j'ai pris contact avec OPENCLASSROOMS pour
+              pousser le projet plus loin. En 2021 je prend la décision de
+              quitter mon poste en CDI pour changer de vie professionnelle.
+              Aujourd'hui j'ai validé un Titre RNCP de niveau 5 Développeur Web,
+              et je me présente devant vous pour poursuivre cette voie et
+              apporter le maximum à votre entreprise. Bienvenue sur mon site !
             </p>
           </div>
           <div className="home__fourthpart__img">
