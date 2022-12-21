@@ -1,11 +1,12 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import SkillsCard from '../components/Skills/SkillsCard';
 
 const Skills = () => {
     return (
         <div>
             <Navigation/>
-            <h1>page skills</h1>
+            <SkillsCard/>
         </div>
     );
 };

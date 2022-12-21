@@ -1,10 +1,8 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 import "../styles/pages/Home.scss";
-import work1 from "../media/work1.jpg";
-import work2 from "../media/work2.jpg";
-import work3 from "../media/work3.jpg";
-import work4 from "../media/work4.jpg";
+
 
 
 const Home = () => {
@@ -22,7 +20,6 @@ const Home = () => {
             <a href="../../CV.pdf" download>Télécharger mon CV</a>
           </div>
           <div className="home__firstpart__img">
-            <img src={work1} alt="carnet de note" />
           </div>
         </div>
         <div className="home__secondpart">
@@ -38,38 +35,26 @@ const Home = () => {
               le tour des activités administratives. Les challenges techniques sont 
               désormais mon moteur.
             </p>
-            <div className="home__secondpart__img">
-              <img
-                src={work2}
-                alt="poste de travail avec ordinateur et tasse de café"
-              />
-            </div>
+          </div>
+          <div className="home__secondpart__img">
           </div>
         </div>
         <div className="home__thirdpart">
           <div className="home__thirdpart__text">
-            <p>
-              Les méthodes d'organisation, de gestion de projet et de
-              relation client n'ont plus de secrets pour moi et j'ai pu faire
-              de très belles rencontres aussi bien avec mes collègues qu'avec
-              mes clients au fur et à mesure des années.
-            </p>
-          </div>
-          <div className="home__thirdpart__img">
-            <img
-              src={work3}
-              alt="ordinateur affichant un code sur une table blanche"
-            />
-          </div>
-        </div>
-        <div className="home__fourthpart">
-          <div className="home__fourthpart__text">
             <p>
               Pendant la période du COVID 19 que nous connaissons tous, j'ai été
               en chomage partiel puis en télétravail pendant 1 an. Durant
               cette période j'ai réfléchi à mon parcours professionnel et j'ai
               profité de cette période inhabituelle de temps libre pour me
               renseigner puis me former seule au développement informatique.
+            </p>
+          </div>
+          <div className="home__thirdpart__img">
+          </div>
+        </div>
+        <div className="home__fourthpart">
+          <div className="home__fourthpart__text">
+            <p>
               J'ai pu étudier le language Python dans un premier temps sur la
               plateforme MOOC. Puis j'ai pris contact avec OPENCLASSROOMS pour
               pousser le projet plus loin. En 2021 je prend la décision de
@@ -80,13 +65,10 @@ const Home = () => {
             </p>
           </div>
           <div className="home__fourthpart__img">
-            <img
-              src={work4}
-              alt="ordinateur affichant un code sur une table blanche"
-            />
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

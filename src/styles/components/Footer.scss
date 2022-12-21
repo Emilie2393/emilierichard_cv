@@ -1,0 +1,15 @@
+
+.Footer{
+    background-color: oldlace;
+    height: 200px;
+    text-align: center;
+    & a{
+        height: 20px;
+        color: #5B3A1B;
+        & svg{
+            margin-top: 60px;
+            height: 50px;
+            width: 70px;
+        }
+    }
+}
