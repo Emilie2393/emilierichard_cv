@@ -1,0 +1,47 @@
+
+.project__slides{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    &__pictures {
+        height: 650px;
+        border-radius: 15px;
+        margin: 0 auto;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        & img{
+            object-fit:cover;
+            width: 100%;
+            height:-webkit-fill-available;
+            flex-grow: 1;
+            display: flex;
+        }
+    }
+    &__vectorleft,&__vectorright{
+        & svg{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            transform: translate(0, -50%);
+            top: 50%;
+            cursor: pointer;
+            color:burlywood;
+        }
+    }
+    &__vectorleft{
+        & svg{
+            left: 10px;
+        }
+    }
+    &__vectorright{
+        & svg{
+            right: 10px;
+        }
+    }
+    &__hiddenvector{
+        height: 0;
+        overflow: hidden;
+    }
+}

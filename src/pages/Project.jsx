@@ -1,11 +1,12 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import ProjectCard from "../components/Project/ProjectCard";
 
 const Project = () => {
     return (
         <div>
             <Navigation/>
-            <h1>Projet</h1>
+            <ProjectCard/>
         </div>
     );
 };

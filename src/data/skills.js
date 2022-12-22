@@ -7,7 +7,7 @@ export const portfolio = [
     cover: "./media/skills/Booki.PNG",
     description:
       "projet d'intégration web",
-    pictures:["./media/skills/Booki.PNG", "./media/skills/Booki2.PNG"],
+    pictures:["../media/skills/Booki.PNG", "../media/skills/Booki2.PNG"],
     link: "https://emilie2393.github.io/Projet_1_Booki/"
   },
   {
@@ -16,7 +16,7 @@ export const portfolio = [
     cover: "./media/skills/Ohmyfood2.PNG",
     description:
       "projet d'intégration web",
-    pictures:["./media/skills/Ohmyfood.PNG", "./media/skills/Ohmyfood2.PNG", "./media/skills/Ohmyfood3.PNG"],
+    pictures:["../media/skills/Ohmyfood.PNG", "../media/skills/Ohmyfood2.PNG", "../media/skills/Ohmyfood3.PNG"],
     link: "https://emilie2393.github.io/Projet_2_OhMyFood/"
   },
   {
@@ -25,7 +25,7 @@ export const portfolio = [
     cover: "./media/skills/Lapanthere.PNG",
     description:
       "projet SEE/SEO",
-    pictures:["./media/skills/Lapanthere.PNG", "./media/skills/Lapanthere2.PNG", "./media/skills/Lapanthere3.PNG"],
+    pictures:["../media/skills/Lapanthere.PNG", "../media/skills/Lapanthere2.PNG", "../media/skills/Lapanthere3.PNG"],
     link: "https://emilie2393.github.io/Projet_3_Panthere/"
   },
   {
@@ -34,7 +34,7 @@ export const portfolio = [
     cover: "./media/skills/Kanap.PNG",
     description:
       "Intégration dynamique d'une API",
-    pictures:["./media/skills/Kanap.PNG", "./media/skills/Kanap2.PNG", "./media/skills/Kanap3.PNG"],
+    pictures:["../media/skills/Kanap.PNG", "../media/skills/Kanap2.PNG", "../media/skills/Kanap3.PNG"],
     link: "https://emilie2393.github.io/Projet_4_Kanap/"
   },
   {
@@ -43,7 +43,7 @@ export const portfolio = [
     cover: "./media/skills/Hottakes.PNG",
     description:
       "Création d'une API sécurisée",
-    pictures:["./media/skills/Hottakes.PNG","./media/skills/Hottakes2.PNG", "./media/skills/Hottakes3.PNG", "./media/skills/Hottakes4.PNG"],
+    pictures:["../media/skills/Hottakes.PNG","../media/skills/Hottakes2.PNG", "../media/skills/Hottakes3.PNG", "../media/skills/Hottakes4.PNG"],
     link: "https://emilie2393.github.io/Projet_5_HotTakes/"
   },
   {
@@ -52,7 +52,7 @@ export const portfolio = [
     cover: "./media/skills/Kasa.PNG",
     description:
       "Implémentation front-end avec React",
-    pictures:["./media/skills/Kasa.PNG","./media/skills/Kasa2.PNG", "./media/skills/Kasa3.PNG"],
+    pictures:["../media/skills/Kasa.PNG","../media/skills/Kasa2.PNG", "../media/skills/Kasa3.PNG"],
     link: "https://emilie2393.github.io/Projet_6_Kasa/"
   }
 
