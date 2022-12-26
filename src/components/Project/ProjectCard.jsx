@@ -17,7 +17,8 @@ const ProjectCard = () => {
             <li key={project.id} className="project__card">
                 <h1 className="project__card__title">{project.title}</h1>
                 <ProjectGallery pictures={project.pictures}/>
-                <p className='project__card__description'>{project.description}</p> 
+                <p className='project__card__description'>{project.details}</p> 
+                <a href={project.link}>Lien du projet</a>
             </li>
             
         ))}

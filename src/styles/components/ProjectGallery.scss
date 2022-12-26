@@ -1,10 +1,10 @@
 
 .project__slides{
     position: relative;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     &__pictures {
-        height: 650px;
+        height: 660px;
         border-radius: 15px;
         margin: 0 auto;
         flex-grow: 1;
@@ -27,7 +27,7 @@
             transform: translate(0, -50%);
             top: 50%;
             cursor: pointer;
-            color:burlywood;
+            color:black;
         }
     }
     &__vectorleft{

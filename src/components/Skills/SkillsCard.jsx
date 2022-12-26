@@ -17,7 +17,7 @@ const SkillsCard = () => {
           <li key={skills.id} className="skills__card">
             <h1 className="skills__card__title">{skills.title}</h1>
             <p className='skills__card__description'>{skills.description}</p>
-            <div className='skills__card__link' onClick={() => initId(skills.id)}> + </div> 
+            <div className='skills__card__link' onClick={() => initId(skills.id)}> en savoir + </div> 
             <img
               className="skills__card__pictures"
               src={skills.cover}

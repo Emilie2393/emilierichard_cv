@@ -1,0 +1,23 @@
+.contact {
+    &__card {
+        background-color: rgb(3, 70, 29);
+        border-radius: 15px;
+        padding: 10px;
+        width: 400px;
+        margin: auto;
+        margin-top: 10%;
+        &__phone,
+        &__mail,
+        &__local {
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            & p {
+                margin-left: 15px;
+            }
+        }
+    }
+
+}
