@@ -4,13 +4,14 @@ import Footer from "../components/Footer";
 import "../styles/pages/Home.scss";
 
 
-
 const Home = () => {
   return (
     <div>
       <Navigation />
       <div className="home">
         <div className="home__firstpart">
+          <div className="home__firstpart__img">
+          </div>
           <div className="home__firstpart__text">
             <h1>Ici, commence ma présentation</h1>
             <h2>
@@ -19,40 +20,37 @@ const Home = () => {
             </h2>
             <a href="../../CV.pdf" download>Télécharger mon CV</a>
           </div>
-          <div className="home__firstpart__img">
-          </div>
+          
         </div>
         <div className="home__secondpart">
+          <div className="home__secondpart__img"></div>
           <div className="home__secondpart__text">
             <p>
               Issue d'un parcours professionnel dans le secteur administratif et
               immobilier, je me reconvertis aujourd'hui dans le développement
-              informatique. Cet univers m'intéresse depuis mon adolescence, mais
-              quand j'ai choisi mes études supérieurs en 2012, je me suis dirigé
-              vers le secteur de l'administratif. Mes 10 ans d'expériences
-              professionnelles m'ont apportés beaucoup en terme de connaissance
-              du monde de l'entreprise. Aujourd'hui j'ai le sentiment d'avoir fait 
+              informatique. Mes 10 ans d'expériences professionnelles m'ont apportés 
+              beaucoup en terme de connaissance du monde de l'entreprise. Aujourd'hui j'ai le sentiment d'avoir fait 
               le tour des activités administratives. Les challenges techniques sont 
               désormais mon moteur.
             </p>
           </div>
-          <div className="home__secondpart__img">
-          </div>
         </div>
         <div className="home__thirdpart">
+        <div className="home__thirdpart__img">
+          </div>
           <div className="home__thirdpart__text">
             <p>
-              Pendant la période du COVID 19 que nous connaissons tous, j'ai été
+              Pendant la période du COVID 19, j'ai été
               en chomage partiel puis en télétravail pendant 1 an. Durant
               cette période j'ai réfléchi à mon parcours professionnel et j'ai
               profité de cette période inhabituelle de temps libre pour me
               renseigner puis me former seule au développement informatique.
             </p>
           </div>
-          <div className="home__thirdpart__img">
-          </div>
         </div>
         <div className="home__fourthpart">
+        <div className="home__fourthpart__img">
+          </div>
           <div className="home__fourthpart__text">
             <p>
               J'ai pu étudier le language Python dans un premier temps sur la
@@ -63,8 +61,6 @@ const Home = () => {
               et je me présente devant vous pour poursuivre cette voie et
               apporter le maximum à votre entreprise. Bienvenue sur mon site !
             </p>
-          </div>
-          <div className="home__fourthpart__img">
           </div>
         </div>
       </div>

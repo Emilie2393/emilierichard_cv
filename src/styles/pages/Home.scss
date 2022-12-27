@@ -5,18 +5,17 @@
     text-align: justify;
     &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
         display: flex;
-        position: relative;
+        flex-wrap: wrap;
+        
         &__text{
-            width: 50%;
-            position: absolute;
-            top: 50%;
-            right: 30px;
-            transform: translate(0, -50%);
-            color: #5B3A1B;
-            background-color: rgb(208, 231, 208);
-            z-index: 2;
-            border-radius: 15px;
-            padding: 20px;
+            width: 100%;
+            color:white;
+            background-color: rgb(59, 59, 59);
+            height: 26vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
         }
         & h1,h2{
             margin: 0;
@@ -24,36 +23,41 @@
         & a{
             text-decoration: none;
             font-size: 1.5em;
-            color: #5B3A1B;
+            color: oldlace;
         }
         &__img{
-            width: 60%;
-            min-height: 100vh;
+            width: 100%;
+            height: 62vh;
             display: flex;
-            background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,1)), url("../../media/work1.jpg");
+            background-image: url("../../media/IMG_3284.jpg");
             background-size: cover;
+            background-position: bottom;
+            filter: brightness(60%);
+            border: white solid 10px;
+            background-attachment: fixed;
             
         }
     }
-    &__secondpart,&__fourthpart{
-        flex-direction: row-reverse;
+    &__secondpart,&__thirdpart,&__fourthpart{
         &__text{
-            left: 40px;
+            font-size: 1.6em;
+            height: 35vh;
+            padding: 0 80px 0 80px;
         }
         &__img{
-            background-image: linear-gradient(to top, rgba(255,255,255,0.5), rgba(255,255,255,1)), url("../../media/work2.jpg");
-            width: 70%;
+            background-image: url("../../media/jellyfish.jpg");
+            width: 100%;
+            height: 60vh;
         }
     }
     &__thirdpart{
         &__img{
-            background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,1)), url("../../media/work3.jpg");
+            background-image: url("../../media/tokyo.jpg");
         }
     }
     &__fourthpart{
         &__img{
-            background-image: linear-gradient(to top, rgba(255,255,255,0.2), rgba(255,255,255,1)), url("../../media/work4.jpg");
-            width: 75%;
+            background-image: url("../../media/learning.jpg");
         }
     }
 
