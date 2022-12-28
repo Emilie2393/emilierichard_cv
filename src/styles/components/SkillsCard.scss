@@ -8,9 +8,9 @@ ul {
     justify-content: space-around;
     background-image: url("../../media/Back.PNG");
     &__card{
-        width: 760px;
+        width: 740px;
         height:fit-content;
-        background: linear-gradient(rgb(59, 59, 59), grey);
+        background: linear-gradient(rgb(50, 85, 58), rgb(141, 145, 140));
         list-style: none;
         border-radius: 15px;
         text-align: center;
@@ -47,8 +47,8 @@ ul {
             margin: 0 0 10px 0;
         }
         &__pictures{
-            width: 90%;
-            height: 390px;
+            width: 88%;
+            height: 420px;
             margin-bottom: 10px;
         }
     }
