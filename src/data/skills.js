@@ -28,7 +28,7 @@ export const portfolio = [
   {
     id: "3",
     title: "Projet 3 - La Panthère",
-    logo:"./media/skills/LaPantherelogo.png",
+    logo:"./media/skills/LaPantherelogo.PNG",
     cover: "./media/skills/Lapanthere.PNG",
     description:
       "Projet SEE/SEO",
@@ -50,7 +50,7 @@ export const portfolio = [
   {
     id: "5",
     title: "Projet 5 - Hot Takes",
-    logo:"./media/skills/Hottakeslogo.png",
+    logo:"./media/skills/Hottakeslogo.PNG",
     cover: "./media/skills/Hottakes.PNG",
     description:
       "Création d'une API sécurisée",
