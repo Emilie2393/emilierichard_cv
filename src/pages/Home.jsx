@@ -13,7 +13,7 @@ const Home = () => {
           <div className="home__firstpart__img">
           </div>
           <div className="home__firstpart__text">
-            <h1>Ici, commence ma présentation</h1>
+            <h1 className="home__firstpart__title">Bienvenue</h1>
             <h2>
               Je m'appelle Emilie Richard, et je recherche un poste de
               Développeur Front-End en alternance

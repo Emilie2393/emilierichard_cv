@@ -11,8 +11,8 @@
         list-style: none;
         text-align: center;
         & h1{
-            padding: 20px 0 30px 30px;
-            margin: 0
+            padding: 20px 30px 30px 30px;
+            margin: 0;
         }
         & p{
             padding: 40px 0 30px 0px;
@@ -28,3 +28,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 830px) {
+
+    .project{
+        &__card{
+        width: 90%;
+        
+    }
+    
+}
+}
+

@@ -20,11 +20,13 @@ const SkillsCard = () => {
             </div>
             <p className='skills__card__description'>{skills.description}</p>
             <div className='skills__card__link' onClick={() => initId(skills.id)}> en savoir + </div> 
+            <div className='skills__card__pictures'>
             <img
-              className="skills__card__pictures"
+              className="skills__card__pictures__img"
               src={skills.cover}
               alt={`${skills.title} cover`}
             />
+            </div>
           </li>
         ))}
       </ul>

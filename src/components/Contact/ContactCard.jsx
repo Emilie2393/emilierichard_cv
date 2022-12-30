@@ -7,7 +7,7 @@ const ContactCard = () => {
   return (
     <div>
       <div className="contact">
-        <h1>N'hésitez pas à me contacter :</h1>
+        <h1>N'hésitez pas à me contacter</h1>
         <div className="contact__card">
           <img className="contact__card__img" src={moi} alt="mon visage"/>
           <div className="contact__card__phone">

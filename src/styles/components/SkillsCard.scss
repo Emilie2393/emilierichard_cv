@@ -7,10 +7,11 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     background-image: url("../../media/Back.PNG");
+    margin: 0;
     &__card{
         width: 740px;
         height:fit-content;
-        background: linear-gradient(rgb(50, 85, 58), rgb(141, 145, 140));
+        background-color: rgb(48, 87, 60);
         list-style: none;
         border-radius: 15px;
         text-align: center;
@@ -31,6 +32,7 @@ ul {
             transform: translate(-50%, 0);
             box-shadow: 10px 5px 10px  black;
             
+            
             & img{
                 width: 80%;
                 margin: auto;
@@ -48,8 +50,43 @@ ul {
         }
         &__pictures{
             width: 88%;
-            height: 420px;
-            margin-bottom: 10px;
+            padding-bottom: 20px;
+            filter: grayscale(1);
+            margin: 0 auto;
+            &__img{
+                width: 100%;
+                border-radius: 10px;
+            }
         }
+    }
+    &__card:nth-child(2){
+        background-color: rgb(101, 146, 114);
+    }
+    &__card:nth-child(3){
+        background-color: rgb(68, 146, 88);
+    }
+    &__card:nth-child(4){
+        background-color: rgb(3, 65, 18);
+    }
+    &__card:nth-child(5){
+        background-color: rgb(184, 214, 191);
+    }
+    &__card:nth-child(6){
+        background-color: rgb(89, 167, 107);
+    }
+}
+
+
+@media only screen and (max-width: 775px) {
+
+    .skills{
+        &__card{
+            width: 95%;
+            &__pictures{
+                width: 95%;
+            }
+        
+        }
+        
     }
 }

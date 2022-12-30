@@ -25,11 +25,14 @@ const HobbiesCard = () => {
     
         
     return (
-      <div>
+      <div className="background">
+        <h1>Parce qu'un CV ne résume pas une personne</h1>
+        <h2>Le monde du cinéma me passionne et occupe mon temps libre, voici un échantillon de mes gouts en la matière</h2>
         <ul className="hobbies">
+        
         {movieData.map((data) => (
           <li key={data.id} className="hobbies__card">
-            <h1 className="hobbies__card__title">{data.name}{data.title}</h1>
+            <p className="hobbies__card__title">{data.name}{data.title}</p>
             <img
               className="hobbies__card__pictures"
               src={IMG_URL + data.poster_path}

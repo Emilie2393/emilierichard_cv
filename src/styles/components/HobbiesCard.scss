@@ -1,11 +1,25 @@
+.background{
+    background-image: url("../../media/Back.PNG");
+    & h1,h2{
+        text-align: center;
+        margin: 0 30px 0 30px;
+        padding: 5px;
+        color: rgb(63, 62, 62);
+        background-color: lightgrey;
+    }
+    & h1{
+        margin-top: 20px;
+    }
+}
+
 .hobbies{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url("../../media/Back.PNG");
+    
     &__card{
         list-style: none;
-        padding: 10px;
+        padding: 0 10px 10px 10px;
         border-radius: 15px;
         background-color: rgb(248, 248, 248);
         box-shadow: 10px 10px 10px  rgb(160, 158, 158);
@@ -13,8 +27,14 @@
         width: 270px;
         &__title{
             margin: 0;
-            height: 80px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+            display: flex;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: rgb(63, 62, 62);;
         }
         &__pictures{
             width: 266px;

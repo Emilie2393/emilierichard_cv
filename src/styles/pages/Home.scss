@@ -1,5 +1,12 @@
 
-
+@keyframes underline {
+    from{
+        background-size: 0 100%;
+    }
+    to{
+        background-size: 100% 100%;
+    }
+}
 .home{
     margin: 0 auto;
     text-align: justify;
@@ -17,13 +24,29 @@
             display: flex;
             flex-direction: column;
         }
-        & h1,h2{
-            margin: 0;
+        &__title{
+            text-align: center;
+            position: relative;
+            text-decoration: none;
+            background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(248, 246, 246, 1) 1%, transparent 7.01%) no-repeat left bottom / 100% 100%;
+            transition: background-size 3s;
+            animation-duration: 5s;
+            animation-name: underline;
+            
+        }
+        & h1,h2,a{
+            margin: 5px;
+            font-weight: 300;
+            text-align: center;
+            
         }
         & a{
             text-decoration: none;
             font-size: 1.5em;
-            color: oldlace;
+            color: white;
+            &:hover{
+                font-weight: 600;
+            }
         }
         &__img{
             width: 100%;
@@ -40,14 +63,16 @@
     }
     &__secondpart,&__thirdpart,&__fourthpart{
         &__text{
-            font-size: 1.6em;
+            font-size: 1.5em;
+            font-weight: 300;
             height: 35vh;
             padding: 0 80px 0 80px;
+            text-align: center;
         }
         &__img{
-            background-image: url("../../media/jellyfish.jpg");
+            background-image: url("../../media/lights.jpg");
             width: 100%;
-            height: 60vh;
+            height: 62vh;
         }
     }
     &__thirdpart{
@@ -62,54 +87,49 @@
     }
 
 }
-    
-//     &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
-//         display: flex;
-//         height: 82vh;
-//         &__img{
-//             height: 82vh;
-//             width: 50%;
-//             overflow: hidden;
-//             display: flex;
-//             & img{
-//                 opacity: 60%;
-//                 object-fit:cover;
-//                 width: 70%;
-//                 flex-grow: 1;
-//                 filter: brightness(60%);
-//             }
-//         }
-//         &__text{
-//             justify-content: center;
-//             text-align: center;
+
+@media only screen and (max-width: 630px) {
+
+    .home{
+        &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
+            &__title,& h2, a{
+                font-size: 1.1em;
+            }
+            &__text{
+                font-size: 1em;
+                height: 47vh;
+                padding: 0 37px 0 37px;
+                line-height: 22px;
+                
+            }
+            &__img{
+                height: 52vh;
+            }
             
-//         }
-//         & h1,h2,p,a{
-//             transform: translate(0, -50%);
-//             color:#5B3A1B;
-//             background: rgba(255, 248, 220, 0.7);
-//             padding: 5px 25px 7px 25px;
-//             border-radius: 30px;
-//             box-shadow: 0 8px 10px 0 #5B3A1B ;
-//         }
-//         a{
-            
-//             text-decoration: none;
-//             font-size: 1.5em;
-//         }
-//         p{
-            
-//             font-weight:500;
-//             font-size: 1.6em;
-//             margin: 0 130px 0 130px;
-//         }
-        
-//     }
-//     &__secondpart,&__thirdpart,&__fourthpart{
-//         height: 100vh;
-//         &__img{
-//             height: 100vh;
-//             width: 50%;
-//         }
-//     }
-// }
+        }
+        &__firstpart{
+            &__text{
+                height: 27vh;
+            }
+            &__img{
+                height: 40vh;
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (min-width: 631px) and (max-width: 1100px){
+
+    .home{
+        &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
+            &__title,& h2, a{
+                font-size: 1.2em;
+            }
+            &__text{
+                font-size: 1.1em;
+            }
+        }
+    }
+}

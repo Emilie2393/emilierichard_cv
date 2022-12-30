@@ -8,7 +8,6 @@ const Hobbies = () => {
     return (
         <div>
             <Navigation/>
-            <h1>Dis moi quel cinéma tu aimes, je te dirai qui tu es !</h1>
             <HobbiesCard/>
             <Footer/>
 

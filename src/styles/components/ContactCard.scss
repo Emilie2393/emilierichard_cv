@@ -1,11 +1,17 @@
 .contact {
+    & h1{
+        text-align: center;
+        font-size: 1.4em;
+        margin: 20px 0 0 0;
+    }
     &__card {
         background-color: rgb(3, 59, 20);
         border-radius: 15px;
         padding: 40px;
-        width: 400px;
+        width: 410px;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 12%;
+        margin-bottom: 40px;
         position: relative;
         &__phone,
         &__mail,
@@ -14,9 +20,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.4em;
+            font-size: 1.3em;
             & p {
-                margin-left: 15px;
+                margin-left: 10px;
             }
         }
         &__img{
@@ -30,3 +36,29 @@
     }
 
 }
+
+@media only screen and (max-width: 830px) {
+
+    .contact{
+        & h1{
+            font-size: 1.2em;
+        }
+        &__card{
+            width: 60%;
+            padding: 25px;
+            margin-top: 35%;
+            &__phone,
+            &__mail,
+            &__local {
+            font-size: 1em;
+            }
+            &__img{
+                width: 120px;
+                left: 50%;
+                top: -100px;
+                transform: translate(-50%, 0);
+            }
+        }
+        }
+        
+    }
