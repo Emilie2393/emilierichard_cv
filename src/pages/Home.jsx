@@ -28,8 +28,8 @@ const Home = () => {
             <p>
               Issue d'un parcours professionnel dans le secteur administratif et
               immobilier, je me reconvertis aujourd'hui dans le développement
-              informatique. Mes 10 ans d'expériences professionnelles m'ont apportés 
-              beaucoup en terme de connaissance du monde de l'entreprise. Aujourd'hui j'ai le sentiment d'avoir fait 
+              web. Mes 10 ans d'expériences professionnelles m'ont apportés 
+              beaucoup en termes de connaissances du monde de l'entreprise. Aujourd'hui j'ai le sentiment d'avoir fait 
               le tour des activités administratives. Les challenges techniques sont 
               désormais mon moteur.
             </p>
@@ -57,7 +57,7 @@ const Home = () => {
               plateforme MOOC. Puis j'ai pris contact avec OPENCLASSROOMS pour
               pousser le projet plus loin. En 2021 je prend la décision de
               quitter mon poste en CDI pour changer de vie professionnelle.
-              Aujourd'hui j'ai validé un Titre RNCP de niveau 5 Développeur Web,
+              Aujourd'hui j'ai validé un Titre RNCP de niveau 5 Développeur Web
               et je me présente devant vous pour poursuivre cette voie et
               apporter le maximum à votre entreprise. Bienvenue sur mon site !
             </p>
