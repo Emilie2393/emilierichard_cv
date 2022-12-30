@@ -18,7 +18,7 @@ const ProjectCard = () => {
                 <h1 className="project__card__title">{project.title}</h1>
                 <ProjectGallery pictures={project.pictures}/>
                 <p className='project__card__description'>{project.details}</p> 
-                <a href={project.link}>Lien du projet</a>
+                <div><a href={project.link}>Lien du projet</a></div>
             </li>
             
         ))}
