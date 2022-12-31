@@ -1,6 +1,6 @@
-.background{
+.hobbies{
     background-image: url("../../media/Back.PNG");
-    & h1,h2{
+    &__intro{
         text-align: center;
         margin: 0 30px 0 30px;
         padding: 5px;
@@ -8,11 +8,14 @@
         background-color: lightgrey;
     }
     & h1{
-        margin-top: 20px;
+        margin: 20px 0px 0px 0px;
+    }
+    & h2{
+        margin: 4px 0 4px 0;
     }
 }
 
-.hobbies{
+.hobbies__list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
