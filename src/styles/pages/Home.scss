@@ -94,12 +94,13 @@
         &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
             &__title,& h2, a{
                 font-size: 1em;
+                line-height: 17px;
             }
             &__text{
                 font-size: 0.9em;
                 height: 50vh;
-                padding: 0 35px 0 35px;
-                line-height: 22px;
+                padding: 0 30px 0 30px;
+                line-height: 20px;
                 
             }
             &__img{
