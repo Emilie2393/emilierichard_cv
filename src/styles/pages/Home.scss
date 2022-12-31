@@ -93,12 +93,12 @@
     .home{
         &__firstpart,&__secondpart,&__thirdpart,&__fourthpart{
             &__title,& h2, a{
-                font-size: 1.1em;
+                font-size: 1em;
             }
             &__text{
-                font-size: 1em;
+                font-size: 0.9em;
                 height: 50vh;
-                padding: 0 37px 0 37px;
+                padding: 0 35px 0 35px;
                 line-height: 22px;
                 
             }
