@@ -18,12 +18,12 @@
     &__vectorleft,&__vectorright{
         & svg{
             width: 40px;
-            height: 40px;
+            height: 35px;
             position: absolute;
             transform: translate(0, -50%);
             top: 50%;
             cursor: pointer;
-            color:black;
+            color:rgb(78, 78, 78);
         }
     }
     &__vectorleft{
@@ -48,6 +48,12 @@
             width: 99%;
             &__pictures {
                 height: 230px;
+            }
+            &__vectorleft,&__vectorright{
+                & svg{
+                    width: 30px;
+                    height: 25px;
+                }
             }
         
     }
