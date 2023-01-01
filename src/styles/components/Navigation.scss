@@ -44,10 +44,10 @@
 
     .nav {
         flex-direction: column;
-        height: 30vh;
-        padding-bottom: 15px;
+        height: 33vh;
+        padding: 10px 0 15px 0;
         & a{
-            padding: 5px 100px 5px 100px;
+            padding: 5px 80px 5px 80px;
         }
     }
 }
