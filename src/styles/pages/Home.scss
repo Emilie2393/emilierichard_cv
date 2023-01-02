@@ -141,13 +141,12 @@
 @media only screen and (max-height: 480px){
 
     .home{
-        
         &__firstpart{
             &__text{
                 height: 30vh;
             }
             &__img{
-                height: 75vh;
+                height: 70vh;
                 background-attachment: scroll;
             }
 

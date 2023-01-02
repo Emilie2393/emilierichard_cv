@@ -53,12 +53,13 @@
     }
 }
 
-@media only screen and (max-height: 480px){
+@media only screen and (max-height: 440px){
 
     .nav {
         flex-direction: column;
-        height: 15vh;
+        height: 18vh;
         padding: 10px 0 15px 0;
+        width: 100%;
         & a{
             padding: 5px 80px 5px 80px;
             font-size: 0.9em;
