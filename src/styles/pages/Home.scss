@@ -138,13 +138,12 @@
 }
 
 
-@media only screen and (max-height: 440px){
+@media only screen and (max-height: 420px){
 
     .home{
         &__firstpart{
             &__text{
                 height: 30vh;
-                background-color: blue;
             }
             &__img{
                 height: 70vh;
