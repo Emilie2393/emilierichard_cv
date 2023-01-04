@@ -52,7 +52,7 @@
             width: 100%;
             height: 64vh;
             display: flex;
-            background-image: url("../../media/IMG_3284.jpg");
+            background-image: url("../../media/IMG_3284.avif");
             background-size: cover;
             background-position: bottom;
             filter: brightness(60%);
@@ -70,19 +70,19 @@
             text-align: center;
         }
         &__img{
-            background-image: url("../../media/lights.jpg");
+            background-image: url("../../media/lights.avif");
             width: 100%;
             height: 65vh;
         }
     }
     &__thirdpart{
         &__img{
-            background-image: url("../../media/tokyo.jpg");
+            background-image: url("../../media/tokyo.avif");
         }
     }
     &__fourthpart{
         &__img{
-            background-image: url("../../media/learning.jpg");
+            background-image: url("../../media/learning.avif");
         }
     }
 
