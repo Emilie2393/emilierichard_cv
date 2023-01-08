@@ -28,7 +28,7 @@ const HobbiesCard = () => {
       <div className="hobbies">
         <div className="hobbies__intro">
         <h1>Parce qu'un CV ne résume pas une personne</h1>
-        <h2>Le monde du cinéma me passionne et occupe mon temps libre, voici un échantillon de mes gouts en la matière</h2>
+        <h2>Le monde du cinéma me passionne et occupe mon temps libre, voici un aperçu de mes gouts en la matière</h2>
         <p>Cette liste a été faite à l'aide de l'API themoviedb</p>
         </div>
         <ul className="hobbies__list">
