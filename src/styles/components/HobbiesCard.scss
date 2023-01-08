@@ -1,10 +1,12 @@
 .hobbies{
     background-image: url("../../media/Back.PNG");
     &__intro{
-        text-align: center;
-        margin: 0 30px 0 30px;
+        text-align: justify;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         padding: 5px;
-        color: rgb(63, 62, 62);
+        color: rgb(37, 37, 37);
         background-color: lightgrey;
     }
     & h1{

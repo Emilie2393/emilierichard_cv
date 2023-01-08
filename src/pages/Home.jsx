@@ -16,7 +16,7 @@ const Home = () => {
             <h1 className="home__firstpart__title">Bienvenue</h1>
             <h2>
               Je m'appelle Emilie Richard, et je recherche un poste de
-              Développeur Front-End en alternance
+              Développeur Front-End
             </h2>
             <a href="../../CV.pdf" download>Télécharger mon CV</a>
           </div>
