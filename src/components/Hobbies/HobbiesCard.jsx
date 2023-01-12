@@ -9,19 +9,15 @@ const IMG_URL = "https://image.tmdb.org/t/p/w500"
 
 const HobbiesCard = () => {
     const [movieData, setData] = useState([])
-    console.log("tableau", URLfinal)
 
     useEffect(() => {
     URLfinal.map((url) =>
         fetch(url).then(res=>res.json()).then(data=>{
-            console.log("datafetch", data)
             setData((movieData) => [...movieData, data]);
             
         })
     )
     }, [])
-
-    console.log("dataext", movieData)
     
         
     return (

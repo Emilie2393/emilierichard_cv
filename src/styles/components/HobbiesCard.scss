@@ -1,13 +1,14 @@
 .hobbies{
-    background-image: url("../../media/Back.PNG");
+    background: linear-gradient(150deg, rgba(203,208,210,1) 0%, rgba(209,226,235,1) 14%, rgba(255,255,255,1) 34%, rgba(199,223,227,1) 47%, rgba(199,215,232,1) 68%, rgba(185,198,198,1) 87%, rgba(202,212,213,1) 98%);
     &__intro{
         text-align: justify;
         align-items: center;
         display: flex;
         flex-direction: column;
         padding: 5px 35px 5px 35px;
-        color: rgb(37, 37, 37);
-        background-color: lightgrey;
+        color: #002333;
+        background-color: #B4BEC9;
+        font-weight: 500;
         
     }
     & h1{
@@ -17,6 +18,7 @@
     & h2{
         margin: 4px 0 4px 0;
         font-size: 1.2em;
+        font-weight: 500;
     }
 }
 
@@ -24,13 +26,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin:0;
     &__card{
         list-style: none;
         padding: 0 10px 10px 10px;
         border-radius: 15px;
         background-color: rgb(248, 248, 248);
-        box-shadow: 10px 10px 10px  rgb(160, 158, 158);
+        box-shadow: 10px 5px 10px  rgba(53, 53, 53, 0.61);
         margin: 30px;
         width: 270px;
         &__title{

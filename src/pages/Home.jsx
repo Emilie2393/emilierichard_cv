@@ -11,6 +11,7 @@ const Home = () => {
       <div className="home">
         <div className="home__firstpart">
           <div className="home__firstpart__img">
+            <div className="home__firstpart__img__filter"></div>
           </div>
           <div className="home__firstpart__text">
             <h1 className="home__firstpart__title">Bienvenue</h1>
@@ -23,7 +24,9 @@ const Home = () => {
           
         </div>
         <div className="home__secondpart">
-          <div className="home__secondpart__img"></div>
+          <div className="home__secondpart__img">
+            <div className="home__secondpart__img__filter"></div>
+          </div>
           <div className="home__secondpart__text">
             <p>
               Issue d'un parcours professionnel dans le secteur administratif et
@@ -37,6 +40,7 @@ const Home = () => {
         </div>
         <div className="home__thirdpart">
         <div className="home__thirdpart__img">
+            <div className="home__thirdpart__img__filter"></div>
           </div>
           <div className="home__thirdpart__text">
             <p>
@@ -50,6 +54,7 @@ const Home = () => {
         </div>
         <div className="home__fourthpart">
         <div className="home__fourthpart__img">
+        <div className="home__fourthpart__img__filter"></div>
           </div>
           <div className="home__fourthpart__text">
             <p>
