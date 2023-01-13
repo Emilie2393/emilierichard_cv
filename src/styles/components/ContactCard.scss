@@ -11,7 +11,7 @@
         padding: 40px;
         width: 410px;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 180px;
         margin-bottom: 40px;
         position: relative;
         &__phone,
@@ -45,9 +45,10 @@
             font-size: 1.2em;
         }
         &__card{
-            width: 67%;
+            width: 290px;
             padding: 25px;
-            margin-top: 33%;
+            margin-top: 150px;
+            margin-bottom: 60px;
             &__phone,
             &__mail,
             &__local {
