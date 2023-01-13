@@ -61,7 +61,7 @@
             background-image: url("../../media/IMG_3284.jpg");
             background-size: cover;
             background-position: bottom;
-            filter: grayscale(45%) brightness(95%);
+            filter: grayscale(55%) brightness(95%);
             background-attachment: fixed;
             &__filter{
                 background-color: #159A9C;
@@ -112,6 +112,9 @@
                 line-height: 20px;
                 
             }
+            & a{
+                margin-bottom: 15px;
+            }
             &__img{
                 height: 48vh;
                 background-attachment: scroll;
@@ -120,7 +123,7 @@
         }
         &__firstpart{
             &__text{
-                height: 25vh;
+                height: 28vh;
             }
             &__img{
                 height: 42vh;
@@ -154,6 +157,7 @@
             &__text{
                 height: 40vh;
             }
+            
             &__img{
                 height: 68vh;
                 background-attachment: scroll;
