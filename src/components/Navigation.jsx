@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/Navigation.scss"
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 
 
 const Navigation = () => {
@@ -10,6 +12,8 @@ const Navigation = () => {
     const handleShowNav = () => {
         setShowNav(!showNav)
     }
+
+    showNav ? disableBodyScroll(document) : enableBodyScroll(document)
 
     return (
         <div className={` ${showNav ? "nav" : "nav__hidden"} `}>
