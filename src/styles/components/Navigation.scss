@@ -8,6 +8,9 @@
     height: 10vh;
     padding-left: 20%;
     padding-right: 20%;
+    &__burger{
+        display: none;
+    }
     & a{
         height: fit-content;
         font-size: 1.1em;
@@ -39,7 +42,7 @@
     .nav,.nav__hidden {
         flex-direction: column;
         height: 100vh;
-        position: fixed;
+        position:fixed;
         left: 0;
         right: 0;
         z-index: 1;
@@ -47,10 +50,11 @@
         
         &__burger{
             position: absolute;
-            top: 40px;
+            top: 50px;
             right: 30px;
             padding: 0;
             border: none;
+            display: block;
             &__bar,&__bar::before,&__bar::after{
                 display: block;
                 width: 26px;
@@ -84,12 +88,15 @@
         
         
     }
-    html { overflow-y: hidden; } 
-    main { overflow-y: hidden; }
+    .nav{
+        overflow: hidden;
+    }
+    
     
     .nav__hidden{
         height: 20vh;
         position: relative;
+        
         .nav__home,.nav__skills,.nav__hobbies,.nav__contact{
             visibility: hidden;
         }
