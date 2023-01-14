@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/Navigation.scss"
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { FaCode } from "react-icons/fa";
 
 
 
@@ -16,7 +17,8 @@ const Navigation = () => {
     showNav ? disableBodyScroll(document) : enableBodyScroll(document)
 
     return (
-        <div className={` ${showNav ? "nav" : "nav__hidden"} `}>
+        <div className={`nav ${showNav ? "nav__open" : "nav__hidden"} `}>
+            <FaCode/>
             <button className="nav__burger" onClick={handleShowNav}>
                 <div className="nav__burger__bar"></div>
             </button>

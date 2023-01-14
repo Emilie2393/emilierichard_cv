@@ -8,7 +8,7 @@
     height: 10vh;
     padding-left: 20%;
     padding-right: 20%;
-    &__burger{
+    &__burger,& svg{
         display: none;
     }
     & a{
@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 630px) {
 
-    .nav,.nav__hidden {
+    .nav {
         flex-direction: column;
         height: 100vh;
         position:fixed;
@@ -47,7 +47,16 @@
         right: 0;
         z-index: 1;
         justify-content: center;
-        
+        right: -100vh;
+        & svg{
+            display: block;
+            color: white;
+            width: 40px;
+            height: 25px;
+            position: absolute;
+            top: 43px;
+            left: 28px;
+        }
         &__burger{
             position: absolute;
             top: 50px;
@@ -57,15 +66,16 @@
             display: block;
             &__bar,&__bar::before,&__bar::after{
                 display: block;
-                width: 26px;
+                width: 31px;
                 height: 3px;
                 background-color: white;
                 position: relative;
+                transition: all .4s ease-in-out;
             }
             &__bar::before,&__bar::after{
                 content: "";
                 position: absolute;
-                width: 18px;
+                width: 23px;
                 margin-left: 4px;
             }
             &__bar::before{
@@ -76,22 +86,30 @@
                 
             }
         }
-            
-            
         
         &__home,&__skills,&__hobbies,&__contact{
             width: 80px;
             font-size: 1.1em;
             text-align: center;
-            margin: 40px;
+            margin: 34px;
         }
         
         
     }
-    .nav{
-        overflow: hidden;
+    .nav__open{
+        right: 0;
+        & .nav__burger{
+            &__bar::before{
+            transform: rotate(45deg);
+            }
+            &__bar::after{
+            transform: rotate(-45deg);
+            }
+            &__bar{
+                height: 0;
+            }
+        }
     }
-    
     
     .nav__hidden{
         height: 20vh;
