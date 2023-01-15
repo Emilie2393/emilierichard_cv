@@ -59,10 +59,15 @@
             background-color: #002333;
             z-index: 1;
             transition: all .5s ease-in-out;
+            :nth-child(1){
+                margin-top: 20px;
+            }
+            & a{
+                margin: 30px 0 0 0;
+                height: 20px;
+            }
         }
-        & a{
-        margin: 30px 0;
-        }
+        
 
         &__burger {
             display: block;
