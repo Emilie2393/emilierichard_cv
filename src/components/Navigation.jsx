@@ -17,16 +17,21 @@ const Navigation = () => {
     showNav ? disableBodyScroll(document) : enableBodyScroll(document)
 
     return (
-        <div className={`nav ${showNav ? "nav__open" : "nav__hidden"} `}>
-            <FaCode/>
-            <button className="nav__burger" onClick={handleShowNav}>
-                <div className="nav__burger__bar"></div>
-            </button>
-            <Link to="/" className="nav__home"><p>Accueil</p></Link>
-            <Link to="/skills" className="nav__skills"><p>Portfolio</p></Link>
-            <Link to="/hobbies" className="nav__hobbies"><p>Hobbies</p></Link>
-            <Link to="/contact" className="nav__contact"><p>Contact</p></Link>
-        </div>
+        
+        <>
+            <div className={showNav ? "burgermove" : "menu"}>
+                <FaCode/>
+                <button className="menu__burger" onClick={handleShowNav}>
+                    <div className="menu__burger__bar"></div>
+                </button>
+            </div>
+            <nav className={showNav ? "open" : "" }>
+                <Link to="/" className="nav__main"><p>Accueil</p></Link>
+                <Link to="/skills" className="nav__skills"><p>Portfolio</p></Link>
+                <Link to="/hobbies" className="nav__hobbies"><p>Hobbies</p></Link>
+                <Link to="/contact" className="nav__contact"><p>Contact</p></Link>
+            </nav>
+        </>
     );
 };
 
