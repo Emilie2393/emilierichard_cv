@@ -121,6 +121,7 @@
             &__img{
                 height: 48vh;
                 background-attachment: scroll;
+                
             }
             
         }
@@ -131,8 +132,24 @@
             &__img{
                 height: 42vh;
                 background-attachment: scroll;
+                background-image: url("../../media/IMG_3284mob.jpg");
             }
 
+        }
+        &__secondpart{
+            &__img{
+                background-image: url(../../media/lightsmob.jpg);
+            }
+        }
+        &__thirdpart{
+            &__img{
+                background-image: url(../../media/tokyomob.jpg);
+            }
+        }
+        &__fourthpart{
+            &__img{
+                background-image: url(../../media/learningmob.jpg);
+            }
         }
     }
 }
