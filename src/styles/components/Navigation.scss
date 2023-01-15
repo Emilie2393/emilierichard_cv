@@ -60,6 +60,9 @@
             z-index: 1;
             transition: all .5s ease-in-out;
         }
+        & a{
+        margin: 30px 0;
+        }
 
         &__burger {
             display: block;
@@ -110,9 +113,6 @@
         &>.nav__links {
             width: 100vw;
             right: 0;
-            & a{
-                margin-top: 30px;
-            }
         }
 
         &>.nav__burger {
