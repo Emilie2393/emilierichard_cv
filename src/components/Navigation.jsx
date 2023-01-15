@@ -18,20 +18,18 @@ const Navigation = () => {
 
     return (
         
-        <>
-            <div className={showNav ? "burgermove" : "menu"}>
-                <FaCode/>
-                <button className="menu__burger" onClick={handleShowNav}>
-                    <div className="menu__burger__bar"></div>
-                </button>
+        <nav className={`nav ${showNav ? "open" : ""}`}>
+            <FaCode/>
+            <div className="nav__links">
+                <Link to="/" className="nav__links__main"><p>Accueil</p></Link>
+                <Link to="/skills" className="nav__links__skills"><p>Portfolio</p></Link>
+                <Link to="/hobbies" className="nav__links__hobbies"><p>Hobbies</p></Link>
+                <Link to="/contact" className="nav__links__contact"><p>Contact</p></Link>
             </div>
-            <nav className={showNav ? "open" : "" }>
-                <Link to="/" className="nav__main"><p>Accueil</p></Link>
-                <Link to="/skills" className="nav__skills"><p>Portfolio</p></Link>
-                <Link to="/hobbies" className="nav__hobbies"><p>Hobbies</p></Link>
-                <Link to="/contact" className="nav__contact"><p>Contact</p></Link>
-            </nav>
-        </>
+            <button className="nav__burger" onClick={handleShowNav}>
+                    <div className="nav__burger__bar"></div>
+            </button>
+        </nav>
     );
 };
 
