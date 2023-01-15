@@ -43,70 +43,85 @@
 
 
 @media only screen and (max-width: 630px) {
+
     //open //
     .nav {
-            &__links {
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                position: fixed;
-                right: -100vw;
-                bottom: 0;
-                height: 100vh;
-                background-color: #002333;
-                z-index: 1;
-                transition: all .5s ease-in-out;
-            }
-    
-            &__burger {
-                display: block;
-                z-index: 2;
-                position: fixed;
-                right: 20px;
-                cursor: pointer;
-                &__bar,
-                &__bar::before,
-                &__bar::after {
-                    display: block;
-                    width: 31px;
-                    height: 3px;
-                    background-color: white;
-                    position: relative;
-                    transition: all .8s ease-in-out;
-                }
-    
-                &__bar::before,
-                &__bar::after {
-                    content: "";
-                    position: absolute;
-                    width: 23px;
-                    margin-left: 4px;
-                }
-    
-                &__bar::before {
-                    transform: translateY(-10px);
-                }
-    
-                &__bar::after {
-                    transform: translateY(10px);
-                }
-    
-            }
+        height: 20vh;
+
+        &__links {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            right: -100vw;
+            bottom: 0;
+            height: 100vh;
+            background-color: #002333;
+            z-index: 1;
+            transition: all .5s ease-in-out;
         }
-    
-    .open{
-        &>.nav__links{
+
+        &__burger {
+            display: block;
+            z-index: 2;
+            position: fixed;
+            right: 20px;
+            cursor: pointer;
+
+            &__bar,
+            &__bar::before,
+            &__bar::after {
+                display: block;
+                width: 31px;
+                height: 3px;
+                background-color: white;
+                position: relative;
+                transition: all .8s ease-in-out;
+            }
+
+            &__bar::before,
+            &__bar::after {
+                content: "";
+                position: absolute;
+                width: 23px;
+                margin-left: 4px;
+            }
+
+            &__bar::before {
+                transform: translateY(-10px);
+            }
+
+            &__bar::after {
+                transform: translateY(10px);
+            }
+
+        }
+        & svg{
+            display: block;
+            z-index: 2;
+            width: 40px;
+            height: 20px;
+            color: white;
+            margin-left: 30px;
+        }
+    }
+
+    .open {
+        &>.nav__links {
             width: 100vw;
             right: 0;
         }
-        &>.nav__burger{
-            &>.nav__burger__bar{
+
+        &>.nav__burger {
+            &>.nav__burger__bar {
                 background: transparent;
             }
-            &>.nav__burger__bar::before{
+
+            &>.nav__burger__bar::before {
                 transform: rotate(45deg);
             }
-            &>.nav__burger__bar::after{
+
+            &>.nav__burger__bar::after {
                 transform: rotate(-45deg);
             }
         }
@@ -115,14 +130,15 @@
 
 
 
-@media only screen and (max-height: 420px){
+@media only screen and (max-height: 420px) {
 
     .nav {
         flex-direction: column;
         height: 25vh;
         padding: 10px 0 15px 0;
         width: 100%;
-        & a{
+
+        & a {
             padding: 5px 80px 5px 80px;
             font-size: 0.9em;
         }
