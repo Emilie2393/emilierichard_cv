@@ -42,7 +42,7 @@
 }
 
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 500px) {
 
     //open //
     .nav {
@@ -110,6 +110,9 @@
         &>.nav__links {
             width: 100vw;
             right: 0;
+            & a{
+                margin-top: 30px;
+            }
         }
 
         &>.nav__burger {
@@ -134,13 +137,13 @@
 
     .nav {
         flex-direction: column;
-        height: 25vh;
-        padding: 10px 0 15px 0;
+        height: 15vh;
         width: 100%;
+        justify-content: center;
 
         & a {
-            padding: 5px 80px 5px 80px;
             font-size: 0.9em;
+            margin: 0 30px 0 30px;
         }
     }
 }
